@@ -1,0 +1,419 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.bold {
+    font-weight: 600;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: ghostwhite;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background-image: url("images/image7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 47px;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    background-color: rgb(76, 156, 107);
+    color: white;
+}
+
+.title h1 {
+    padding: 5px 0px;
+}
+
+.logo {
+    height: 140px;
+    padding: 0px 8%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.nav-links-wrap {
+    width: 15%;
+    min-height: 460px;
+    max-height: 460px;
+    background-color: white;
+    margin-top: 20px;
+    box-shadow: 5px 5px 8px 2px #353535;
+    text-align: center;
+}
+
+.nav-links li {
+    list-style-type: none;
+    padding: 22px 35px 22px 0px;
+}
+
+#active {
+    color: rgb(64, 192, 102);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.nav-links a:hover {
+    font-weight: 600;
+    color: rgb(70, 56, 196);
+}
+
+.nav-links a:active {
+    color: dodgerblue;
+}
+
+.content-wrap {
+    display: flex;
+    width: 80%;
+    min-height: 460px;
+    background-color: white;
+    margin: 20px 0px 30px 0px;
+    box-shadow: 5px 5px 8px 2px #353535;
+
+}
+
+.content {
+    width: 70%;
+}
+
+.content h2 {
+    margin: 15px 0px 5px 0px;
+}
+
+.content p {
+    margin-bottom: 25px;
+}
+
+.pol-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+}
+
+.contact-text p {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.pol {
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    box-shadow: 5px 5px 8px 2px #353535;
+}
+
+.polaroid-1 {
+    background-image: url("images/soccer_image1.jpg");
+    width: 130px;
+    height: 130px;
+    transform: rotate(26deg);
+}
+
+.polaroid-2 {
+    background-image: url("images/soccer_image2.jpg");
+    width: 140px;
+    height: 140px;
+    transform: rotate(-15deg);
+    z-index: 1;
+    margin-right: 10px;
+}
+
+.polaroid-3 {
+    background-image: url("images/soccer_image3.jpg");
+    width: 130px;
+    height: 130px;
+    transform: rotate(20deg);
+    z-index: 2;
+}
+
+.polaroid-4 {
+    background-image: url("images/image2.png");
+    width: 130px;
+    height: 130px;
+    transform: rotate(26deg);
+}
+
+.polaroid-5 {
+    background-image: url("images/image1.png");
+    width: 140px;
+    height: 140px;
+    transform: rotate(-15deg);
+    z-index: 1;
+    margin-right: 10px;
+}
+
+.polaroid-6 {
+    background-image: url("images/image3.png");
+    width: 130px;
+    height: 130px;
+    transform: rotate(20deg);
+    z-index: 2;
+}
+
+.polaroid-7 {
+    background-image: url("images/image4.png");
+    width: 130px;
+    height: 130px;
+    transform: rotate(26deg);
+}
+
+.polaroid-8 {
+    background-image: url("images/image5.png");
+    width: 140px;
+    height: 140px;
+    transform: rotate(-15deg);
+    z-index: 1;
+    margin-right: 10px;
+}
+
+.polaroid-9 {
+    background-image: url("images/image6.png");
+    width: 130px;
+    height: 130px;
+    transform: rotate(20deg);
+    z-index: 2;
+}
+
+.rules-header {
+    width: 100%;
+    text-align: center;
+}
+
+.rules-header h2 {
+    margin-top: 30px;
+}
+
+.rules-header h3,
+.rules-header p {
+    margin-top: 20px;
+}
+
+.rules-wrap {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px 80px 40px;
+    width: 80%;
+    min-height: 460px;
+    background-color: white;
+    margin: 20px 0px 30px 0px;
+    box-shadow: 5px 5px 8px 2px #353535;
+}
+
+.square {
+    list-style-type: square;
+}
+
+.none {
+    list-style-type: none;
+}
+
+.top {
+    margin-top: 30px;
+}
+
+.letters {
+    list-style-type: lower-alpha;
+}
+
+.circle {
+    list-style-type: circle;
+}
+
+.form-wrap {
+    width: 100%;
+    padding: 20px;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form-title h2 {
+    margin: 20px 0px 50px 0px;
+}
+
+form div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.submit-btn-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.button {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(76, 156, 107);
+    color: white;
+    font-size: 18px;
+}
+
+.button:hover {
+    width: 100px;
+    height: 30px;
+    background-color: rgb(85, 166, 233);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+
+
+form input[type=text] {
+    flex-grow: 1;
+}
+
+form label {
+    padding: 0px 10px;
+}
+
+.fifty-pct {
+    width: 50%;
+}
+
+.twenty-five {
+    width: 25%;
+}
+
+#midfield {
+    margin-left: 30px;
+}
+
+#goalkeeper {
+    margin-left: 30px;
+}
+
+#midfield2 {
+    margin-left: 30px;
+}
+
+#goalkeeper2 {
+    margin-left: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.consent {
+    font-size: 13px;
+}
+
+
+input {
+    border: 1px solid gray;
+}
+
+.feedback-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+
+.feedback-wrap {
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    box-shadow: 5px 5px 8px 2px #353535;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.feedback-wrap div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feedback-table tr td,
+.feedback-table th {
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+.game-info-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 20px;
+    background: white;
+}
+
+.italic {
+    font-style: italic;
+}
+
+table {
+    padding: 20px;
+}
+
+table th {
+    text-decoration: underline;
+    width: 25%;
+}
+
+table tr {
+    text-align: center;
+}
+
+table th,
+table td {
+    border: 1px solid black;
+}
+
+.locations th {
+    border: none;
+    width: 30%;
+    text-align: start;
+}
+
+.game-info-mail {
+    display: flex;
+}
